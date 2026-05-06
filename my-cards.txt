@@ -1,5 +1,5 @@
-Mongol Ulsiin niislel ali hot ve? | Ulaanbaatar
-Delhiin hamgiin tom dalai ali ve? | Nomhon dalai
-Hun heden undsen medrehuitei ve? | 5
-Us heden hemd butsaldeg ve? | 100°C
-Nar yu ve? | Od
+1 Mongol Ulsiin niislel ali hot ve? | Ulaanbaatar
+2 Delhiin hamgiin tom dalai ali ve? | Nomhon dalai
+3 Hun heden undsen medrehuitei ve? | 5
+4 Us heden hemd butsaldeg ve? | 100°C
+5 Nar yu ve? | Od

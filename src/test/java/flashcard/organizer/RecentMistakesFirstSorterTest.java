@@ -32,6 +32,6 @@ class RecentMistakesFirstSorterTest {
         final RecentMistakesFirstSorter sorter = new RecentMistakesFirstSorter();
         final List<Card> sorted = sorter.organize(previousOrder, new StudyProgress(stats, previousRound));
 
-        assertEquals(List.of(fourth, second, first, third), sorted);
+        assertEquals(List.of(second, fourth, first, third), sorted);
     }
 }

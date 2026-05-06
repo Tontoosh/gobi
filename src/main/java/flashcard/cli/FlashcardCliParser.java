@@ -18,7 +18,7 @@ public final class FlashcardCliParser {
      */
     public FlashcardConfiguration parse(final String[] args) throws CliParsingException {
         if (Arrays.asList(args).contains("--help")) {
-            return new FlashcardConfiguration(true, null, OrderType.RANDOM, 1, false);
+            return new FlashcardConfiguration(true, null, OrderType.RANDOM, 3, false);
         }
 
         if (args.length == 0) {
@@ -31,7 +31,7 @@ public final class FlashcardCliParser {
 
         final String cardsFile = args[0];
         OrderType orderType = OrderType.RANDOM;
-        int repetitions = 1;
+        int repetitions = 3;
         boolean invertCards = false;
 
         int index = 1;
@@ -83,7 +83,7 @@ public final class FlashcardCliParser {
         stream.println("  --help                         Тусламжийн мэдээлэл харуулах");
         stream.println("  --order <дараалал>             Картын дараалал. Өгөгдмөл: random");
         stream.println("                                 Сонголтууд: random, worst-first, recent-mistakes-first");
-        stream.println("  --repetitions <тоо>            Картын шаардлагатай зөв хариу. Өгөгдмөл: 1");
+        stream.println("  --repetitions <тоо>            Картын шаардлагатай зөв хариу. Өгөгдмөл: 3");
         stream.println("  --invertCards                  Асуулт ба хариуг солих. Өгөгдмөл: false");
     }
 

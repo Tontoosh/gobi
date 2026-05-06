@@ -41,7 +41,7 @@ class FlashcardCliParserTest {
         assertTrue(configuration.helpRequested());
         assertNull(configuration.cardsFile());
         assertEquals(OrderType.RANDOM, configuration.orderType());
-        assertEquals(1, configuration.repetitions());
+        assertEquals(3, configuration.repetitions());
         assertFalse(configuration.invertCards());
     }
 
